@@ -13,7 +13,6 @@ body {
 .header-01 {
     width: 100%;
     height: 102px;
-    background-color: antiquewhite;
 }
 
 .nav {
@@ -28,6 +27,46 @@ body {
     gap: 11px;
     padding-left: 141px;
     padding-top: 20px;
+}
+
+.home {
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.about {
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.facilities {
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.admission {
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 
@@ -68,6 +107,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
     border: none;
+    cursor: pointer;
 }
 
 .nav-but-01:hover {
@@ -88,15 +128,15 @@ body {
     display: flex;
 }
 
-.b-t-01{
+.b-t-01 {
     color: rgb(254, 163, 1);
 }
 
-.b-t-02{
+.b-t-02 {
     color: rgb(1, 172, 253);
 }
 
-.banner-01{
+.banner-01 {
     margin-right: 50px;
     width: 640px;
 }
@@ -136,17 +176,155 @@ body {
     text-align: center;
 }
 
-
-
-.banner-but:hover{
+.banner-but:hover {
     background-color: rgba(141, 229, 74, 0.911);
     cursor: pointer;
     border: none;
 }
 
+/* ----------------------------------- */
+
+main {
+    background-image: url("bg.png");
+}
+
+.main-01 {
+    height: 1879px;
+    margin: 20 auto;
+}
+
+.m-01-title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.div-m {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+
+}
+
+.div-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.div-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.div-03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.d-01-h3 {
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.d-01-p {
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.d-01-but {
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.d-01-but:hover {
+    color: crimson;
+}
+
+.m-btn {
+    text-align: center;
+}
+
+.m-02-btn {
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    width: 60px;
+    height: 60px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.m-02-btn:hover {
+    background-color: peachpuff;
+}
 
 @media screen and (max-width: 576px) {
     .header-01 {
+
+        height: auto;
+        /* Adjust for smaller screens */
+
         width: 100%;
         height: 102px;
         border: 1px solid rgba(254, 163, 1, 1);
@@ -160,7 +338,8 @@ body {
 
     .img-nav h3,
     .nav-link,
-    .nav-but-01 {
+    .nav-but-01,
+    .m-btn {
         display: none;
     }
 
@@ -176,26 +355,61 @@ body {
         padding-top: 20px;
         padding-right: 16px;
     }
+
     /* ----------------------------------------- */
     /* banner */
-    .banner{
+    .banner {
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column-reverse;
         margin-top: 98px;
     }
 
-    .banner-01{
+    .banner-01 {
         margin-left: 50px;
         width: 100%;
         text-align: center;
     }
-    .b-img img{
+
+    .b-img img {
         width: 100%;
         margin-top: 290px;
     }
 
-    .banner-title,.banner-p{
+    .banner-title,
+    .banner-p {
         text-align: center;
+    }
+
+    /* -------------------------------------------- */
+    .main-01 {
+        padding-top: 290px;
+        /* Adjust padding for responsive header */
+    }
+
+    .m-01-title {
+        margin-top: 100px;
+    }
+
+    .div-m {
+        display: grid;
+        margin-left: 14px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .m-01-title {
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 140px;
+    }
+
+    .div-01,
+    .div-02,
+    .div-03 {
+        height: 380.28px;
     }
 
 }
