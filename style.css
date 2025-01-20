@@ -410,6 +410,7 @@ main {
     .div-02,
     .div-03 {
         height: 380.28px;
+        width: 100%;
     }
 
 }
