@@ -325,6 +325,7 @@ main {
 .main-02 {
     margin: 50 auto;
     width: 100%;
+    border: 2px solid blue;
 }
 
 .main-02-h2 {
@@ -360,6 +361,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 19px;
+    border: 2px solid red;
 }
 
 .m-d-03>div {
@@ -613,6 +615,7 @@ main {
     /* ----------------------------- */
     .main-02 {
         width: 100%;
+        margin-top: -10px;
     }
 
     .m-d-03 {
@@ -621,7 +624,7 @@ main {
         width: 100%;
         margin-top: -40px;
         margin-left: 16px;
-        /* margin-right: 16px; */
+        margin-right: 16px;
     }
 
     .m-d-03>div {
