@@ -634,6 +634,10 @@ main {
         border-radius: 16px;
     }
 
+    .test , .test-3 img{
+        width: 100%;
+    }
+
     .test button {
         width: 103.91px;
         height: 22.83px;
