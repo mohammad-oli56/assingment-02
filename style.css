@@ -474,9 +474,44 @@ main {
     padding-right: 68px;
 }
 
-.test-3 button{
+.test-3 button {
     background-color: rgb(93, 88, 240);
     border: none;
+}
+
+.m-2-l-btn {
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    text-align: center;
+}
+
+/* ------------------------------- */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center-container button {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.center-container button:hover {
+    background-color: rgb(16, 4, 43);
+    color: rgb(253, 3, 103);
 }
 
 /* --------------------------------------- */
@@ -623,6 +658,19 @@ main {
         letter-spacing: 0%;
         text-align: left;
         overflow: hidden;
-       
+
     }
+
+    .center-container {
+        height: 200px;
+        padding: 10px;
+        width: 150px;
+        height: 100px;
+    }
+
+    .center-container button {
+        width: 150px;
+        height: 50px;
+    }
+
 }
