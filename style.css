@@ -189,7 +189,7 @@ main {
 }
 
 .main-01 {
-    height: 1879px;
+    height: 879px;
     margin: 20 auto;
 }
 
@@ -319,6 +319,167 @@ main {
     background-color: peachpuff;
 }
 
+/* ---------------------------------- */
+/* main-02 */
+
+.main-02 {
+    margin: 50 auto;
+    width: 100%;
+}
+
+.main-02-h2 {
+    margin-bottom: 80px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.m-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.m-d-02 {
+    width: 540.27px;
+    height: 630.52px;
+    background-color: aliceblue;
+    border-radius: 16px;
+}
+
+.m-d-02 img {
+    border-radius: 16px 16px 0 0;
+}
+
+.m-d-03 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.m-d-03>div {
+    width: 290.69px;
+    height: 301.61px;
+    background-color: aliceblue;
+    border-radius: 16px;
+}
+
+.m-d-03 img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+/* .m-d-03 button {
+    margin-left: 37px;
+    margin-top: -900px;
+} */
+
+.m-h4 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 37px;
+}
+
+.m-btn-2-01 {
+    width: 174.51px;
+    height: 38.35px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+}
+
+.test {
+    position: relative;
+
+}
+
+.test img {
+    width: 100%;
+}
+
+.test button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -110px;
+    margin-bottom: -25px;
+    background: rgb(149, 178, 38);
+    width: 174.51px;
+    height: 38.35px;
+    border: none;
+    border-radius: 47.93px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.test-1 {
+    position: relative;
+
+}
+
+.test-1 img {
+    width: 100%;
+}
+
+.test-1 button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -230px;
+    margin-bottom: -25px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    border-radius: 47.93px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.m-h3 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 38px;
+}
+
+.m-p {
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 38px;
+    padding-right: 68px;
+}
+
+.test-3 button{
+    background-color: rgb(93, 88, 240);
+    border: none;
+}
+
+/* --------------------------------------- */
 @media screen and (max-width: 576px) {
     * {
         padding: 0;
@@ -339,7 +500,8 @@ main {
     .img-nav h3,
     .nav-link,
     .nav-but-01,
-    .m-btn {
+    .m-btn,
+    .m-d-02 {
         display: none;
     }
 
@@ -413,4 +575,54 @@ main {
         width: 100%;
     }
 
+    /* ----------------------------- */
+    .main-02 {
+        width: 100%;
+    }
+
+    .m-d-03 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        width: 100%;
+        margin-top: -40px;
+        margin-left: 16px;
+        /* margin-right: 16px; */
+    }
+
+    .m-d-03>div {
+        width: 173.09px;
+        height: 179.59px;
+        background-color: aliceblue;
+        border-radius: 16px;
+        gap: -5px;
+    }
+
+    .test button {
+        width: 103.91px;
+        height: 22.83px;
+        left: 22.83px;
+        top: 93.96px;
+        margin-left: 0;
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 9.13px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .main-02-h2 {
+        margin-top: 600px;
+    }
+
+    .m-h4 {
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 9.13px;
+        font-weight: 700;
+        line-height: 12px;
+        letter-spacing: 0%;
+        text-align: left;
+        overflow: hidden;
+       
+    }
 }
