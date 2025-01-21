@@ -320,14 +320,14 @@ main {
 }
 
 @media screen and (max-width: 576px) {
+    * {
+        padding: 0;
+    }
+
     .header-01 {
-
-        height: auto;
-        /* Adjust for smaller screens */
-
         width: 100%;
         height: 102px;
-        border: 1px solid rgba(254, 163, 1, 1);
+        border-bottom: 2px solid rgba(254, 163, 1, 1);
     }
 
     .img-nav {
@@ -383,7 +383,7 @@ main {
     /* -------------------------------------------- */
     .main-01 {
         padding-top: 290px;
-        /* Adjust padding for responsive header */
+
     }
 
     .m-01-title {
@@ -392,7 +392,7 @@ main {
 
     .div-m {
         display: grid;
-        margin-left: 14px;
+        margin-left: 0;
         grid-template-columns: repeat(1, 1fr);
     }
 
