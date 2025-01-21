@@ -621,18 +621,17 @@ main {
     .m-d-03 {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
-        width: 100%;
+        width: 90%;
         margin-top: -40px;
         margin-left: 16px;
         margin-right: 16px;
     }
 
     .m-d-03>div {
-        width: 173.09px;
-        height: 179.59px;
+        width: 165.09px;
+        height: 190.59px;
         background-color: aliceblue;
         border-radius: 16px;
-        gap: -5px;
     }
 
     .test button {
@@ -657,7 +656,8 @@ main {
         font-family: Quicksand;
         font-size: 9.13px;
         font-weight: 700;
-        line-height: 12px;
+        padding-top: 5px;
+        line-height: 14px;
         letter-spacing: 0%;
         text-align: left;
         overflow: hidden;
