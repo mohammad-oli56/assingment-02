@@ -517,6 +517,81 @@ main {
 }
 
 /* --------------------------------------- */
+.footer {
+    width: 100%;
+    height: 519px;
+    background-color: rgb(1, 172, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-div {
+    width: 830.91px;
+    height: auto;
+    border: 2px solid red;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-div {
+    width: auto;
+
+    height: auto;
+
+    border: 2px solid blue;
+
+}
+
+.i-d-1 {
+    display: flex;
+    align-items: center;
+}
+
+.i-d-title {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 30.14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.i-d-p {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.i-d-title-1 {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.inner-div li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 0;
+}
+
+/* --------------------------------------- */
 @media screen and (max-width: 576px) {
     * {
         padding: 0;
@@ -619,13 +694,12 @@ main {
     }
 
     .m-d-03 {
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
-        width: 90%;
-        margin-top: -40px;
-        margin-left: 16px;
-        margin-right: 16px;
-    }
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
 
     .m-d-03>div {
         width: 165.09px;
@@ -634,7 +708,8 @@ main {
         border-radius: 16px;
     }
 
-    .test , .test-3 img{
+    .test,
+    .test-3 img {
         width: 100%;
     }
 
@@ -680,4 +755,27 @@ main {
         height: 50px;
     }
 
+    /* ---------------------------- */
+    .footer {
+        height: 642px;
+        background-color: rgb(1, 172, 253);
+
+    }
+
+    .centered-div {
+        flex-direction: column;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 640px;
+        width: 390px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+    .inner-div {
+        width: 98%;
+        margin: 10px 2px;
+
+    }
 }
