@@ -547,6 +547,20 @@ body {
 
 }
 
+.inner-div-1{
+    height: 222px;
+    margin-bottom: 20px;
+}
+
+.inner-div-2 {
+    height: 222px;
+    margin-bottom: 20px;
+}
+
+.i-d-title-1{
+    font-size: 20.14px;
+}
+
 .i-d-1 {
     display: flex;
     align-items: center;
@@ -563,12 +577,18 @@ body {
 .i-d-p {
     color: rgb(255, 255, 255);
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0%;
+    margin-top: 0;
     text-align: left;
 }
+
+
+
+.f-li{
+    padding: 10px 0;
+}
+
 
 .i-d-title-1 {
     color: rgb(255, 255, 255);
@@ -695,8 +715,8 @@ body {
     }
 
     .m-d-03 {
-        display: flex;
-        flex-wrap: wrap; 
+        display: grid;
+       grid-template-columns: repeat(2 ,1fr);
         gap: 40px;
         margin-left: 10px;
         margin-right: 5px;
@@ -777,6 +797,15 @@ body {
     .inner-div {
         width: 98%;
         margin: 10px 2px;
+    }
 
+    .inner-div-2 {
+        margin-bottom: 100px;
+       margin-top: 22px;
+    }
+
+    .inner-div-1{
+        margin-bottom: -0px;
+        margin-top: -40px;
     }
 }
