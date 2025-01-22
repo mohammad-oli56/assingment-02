@@ -718,9 +718,9 @@ body {
         display: grid;
        grid-template-columns: repeat(2 ,1fr);
         gap: 0;
-        margin-left: 10px;
+        /* margin-left: px; */
         margin-right: 5px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         padding-right: 5px;
         padding-bottom: 10px;
         width: 86%;
