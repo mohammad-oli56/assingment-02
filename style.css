@@ -720,14 +720,18 @@ body {
         gap: 0;
         margin-left: 10px;
         margin-right: 5px;
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-bottom: 10px;
         width: 86%;
       }
 
     .m-d-03>div {
-        width: 165.09px;
-        height: 190.59px;
+        width: 155.09px;
+        height: 180.59px;
         background-color: aliceblue;
         border-radius: 16px;
+        padding-bottom: 10px;
     }
 
     .test,
