@@ -717,9 +717,10 @@ body {
     .m-d-03 {
         display: grid;
        grid-template-columns: repeat(2 ,1fr);
-        gap: 40px;
+        gap: 0;
         margin-left: 10px;
         margin-right: 5px;
+        width: 86%;
       }
 
     .m-d-03>div {
